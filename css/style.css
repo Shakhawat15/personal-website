@@ -1,0 +1,25 @@
+/* Utilities */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Reusable */
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+/* Top Section */
+
+/* Biography Section */
+
+/* Work Section */
+
+/* Contact Section */
+
+/* Footer Section */
