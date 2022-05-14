@@ -5,21 +5,183 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* Reusable */
-.flex {
-    display: flex;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.grid {
-    display: grid;
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Reusable */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    /* gap: 50px; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.half-width {
+    flex-basis: 40%;
+}
+
+.third-width {
+    flex-basis: 30%;
+}
+
+.link-btn {
+    background-image: linear-gradient(45deg, #ec4094, #ed4b72);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.section-title {
+    color: #000;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 35px;
 }
 
 /* Top Section */
+#top-area {
+    background-image: url(/images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+
+#top-area .content h2 {
+    color: #000;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+#top-area .content h1 {
+    color: #ec4c7a;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+#top-area .content p {
+    color: #999;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
 
 /* Biography Section */
+#biography-area {
+    background-image: url(/images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+
+#biography-area .content h2 {
+    color: #000;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#biography-area .content p {
+    color: #999;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
 
 /* Work Section */
+#work-area {
+    background-image: url(/images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
 
 /* Contact Section */
+#contact-area {
+    background-image: url(/images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    text-align: center;
+}
 
+#contact-area .review {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#contact-area .review .name {
+    margin-bottom: 25px;
+}
+
+#contact-area .review .name h4 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#contact-area .review .name span {
+    font-size: 12px;
+    color: #777;
+}
+
+#contact-area .review q {
+    color: #999;
+    font-size: 14px;
+}
+
+#contact-area .mail {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#contact-area .mail .link-btn {
+    display: block;
+    text-transform: lowercase;
+    padding: 20px 0;
+}
+
+#contact-area .mail .link-btn span {
+    font-size: 12px;
+}
+
+#contact-area .mail .link-btn h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px 0;
+}
 /* Footer Section */
+#footer-area {
+    padding: 25px 0;
+    text-align: center;
+}
+
+#footer-area p {
+    color: #999;
+    font-size: 12px;
+    margin-top: 25px;
+}
